@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Log In</title>
+</head>
+
+<body>
+    <!-- MAIN SECTION STARTS HERE  -->
+    <main class="font-Poppins bg-hero-img bg-cover bg-center h-screen w-full flex justify-center ">
+        <!-- CONTAINER STARTS HERE -->
+        <div class="container flex justify-center items-center">
+            <!-- FORM CONTAINER STARTS HERE  -->
+            <div class="shadow-custom-black backdrop-blur-xl  box-border py-6 rounded-md w-[300px]">
+                <h1 class="text-2xl font-bold text-center mb-6 md:text-3xl">Login Here</h1>
+                <div>
+                    <!-- FORM STARTS HERE  -->
+                    <form action="#action.php" class="px-4">
+                        <!-- LABEL AND INPUT FIELD CONTAINER  -->
+                        <div>
+                            <div>
+                                <label class="font-semibold mx-2" for="username">Username:</label>
+                            </div>
+                            <div class="mt-1 mb-4 flex justify-center">
+                                <input class="w-64 bg-black bg-opacity-10 rounded-md focus:outline-none px-4 py-2 "
+                                    type="text" name="username" id="username" required>
+                            </div>
+                            <div>
+                                <label class="font-semibold mx-2" for="password">Password:</label>
+                            </div>
+                            <div class="mt-1 mb-4 flex justify-center">
+                                <input class="w-64 bg-black bg-opacity-10 rounded-md focus:outline-none px-4 py-2 "
+                                    type="password" name="password" id="password" required>
+                            </div>
+                        </div>
+                        <!-- LOG IN BUTTON -->
+                        <div class="flex justify-center items-center">
+                            <a href="#Login"
+                                class="w-64 bg-black bg-opacity-10 cursor-pointer text-center px-4 py-1 mt-2 font-semibold rounded-md border-2 border-transparent hover:border-yellow-300 transition">Log
+                                In</a>
+                        </div>
+                        <!-- SOME TEXT -->
+                        <div class="text-sm text-center my-3 font-medium ">Login with a social media account</div>
+                        <!-- SOCIAL MEDIA ICONS TO LOG IN -->
+                        <div class="mt-4 flex justify-evenly items-center">
+                            <a href="https://google.com/" target="_blank"><img
+                                    class="w-9 p-1 rounded-full bg-black bg-opacity-10 border-2 border-transparent hover:border-yellow-300 transition"
+                                    src="assets/images/google.png" alt="Google"></a>
+                            <a href="https://www.facebook.com/" target="_blank"><img
+                                    class="w-10 p-1 rounded-full  bg-black bg-opacity-10 border-2 border-transparent hover:border-yellow-300 transition"
+                                    src="assets/images/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img
+                                    class="w-10 p-1 rounded-full  bg-black bg-opacity-10 border-2 border-transparent hover:border-yellow-300 transition"
+                                    src="assets/images/instagram.png" alt="Instagram"></a>
+                        </div>
+                    </form>
+                    <!-- FORM EDNS HERE -->
+                </div>
+            </div>
+            <!-- FORM CONTAINER ENDS HERE -->
+        </div>
+        <!-- CONTAINER ENDS HERE -->
+    </main>
+    <!-- MAIN SECTION ENDS HERE -->
+</body>
+
+</html>
